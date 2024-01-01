@@ -9,7 +9,7 @@ const App = () => {
   const handleAlphabetClick = (alphabet) => {
     setSelectedAlphabet(alphabet);
     const audio = new Audio(
-      `${process.env.PUBLIC_URL}/${alphabet.toLowerCase()}.m4a`
+      `${process.env.PUBLIC_URL}/${alphabet.toLowerCase()}.mp3`
     );
     audio.play();
     // };
