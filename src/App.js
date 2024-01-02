@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Footer from "./Footer";
 
 const alphabetList = ["A", "B", "C", "D", "E", "F", "G", "H"];
 
@@ -40,6 +41,9 @@ const App = () => {
           />
         </div>
       )}
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
