@@ -13,7 +13,6 @@ const App = () => {
       `${process.env.PUBLIC_URL}/${alphabet.toLowerCase()}.mp3`
     );
     audio.play();
-    // };
   };
 
   return (
